@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+body {
+  background: #000000;
+  color: white;
+}
+.brands {
+  color: #79797a;
+}
+.brands .logo img {
+  margin: 1rem;
+}
+.globe img {
+  animation: globe 2s infinite linear;
+}
+@keyframes globe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+}
