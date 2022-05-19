@@ -13,7 +13,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./styles.css" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Meta-Verse</title>
   </head>
   <body>
@@ -62,7 +62,7 @@
     <main>
       <div class="container pt-5">
         <div class="row d-flex flex-lg-row flex-column-reverse">
-          <div class="col-lg-6 pt-lg-0 pt-5">
+          <div class="col-lg-6 py-lg-0 py-5" data-aos="fade-up">
             <h1>Launch your best product through the Metaverse.</h1>
             <h3>
               We provide the best service for your company product in the real
@@ -106,5 +106,12 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 400,
+      });
+    </script>
   </body>
 </html>
