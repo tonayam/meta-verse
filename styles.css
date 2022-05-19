@@ -55,6 +55,26 @@ body {
     rgba(208, 60, 30, 0.56) 1.59%,
     rgba(16, 82, 177, 0.56) 105.94%
   );
+  animation: bg-change 2s infinite;
+}
+@keyframes bg-change {
+  0% {
+    background: linear-gradient(
+      181.88deg,
+      rgba(208, 60, 30, 0.56) 1.59%,
+      rgba(16, 82, 177, 0.56) 105.94%
+    );
+  }
+  50% {
+    background: black;
+  }
+  100% {
+    background: linear-gradient(
+      181.88deg,
+      rgba(208, 60, 30, 0.56) 1.59%,
+      rgba(16, 82, 177, 0.56) 105.94%
+    );
+  }
 }
 .get-ready h1 {
   width: 60%;
