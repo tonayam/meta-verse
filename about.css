@@ -21,7 +21,12 @@ body {
   background: #000000;
   color: white;
 }
-
+.about-img {
+  height: 60vh;
+}
+.about-img img {
+  height: 100%;
+}
 @keyframes bg-change {
   0% {
     background: linear-gradient(
