@@ -3,16 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background: #000000;
-  color: white;
-}
-.brands {
-  color: #79797a;
-}
-.brands .logo img {
-  margin: 1rem;
-}
+
 .globe img {
   animation: globe 2s infinite linear;
 }
@@ -33,7 +24,6 @@ body {
 }
 .faq .question {
   border-bottom: 2px solid grey;
-  margin: 1rem;
 }
 .get-ready .container {
   background: linear-gradient(
@@ -43,6 +33,7 @@ body {
   );
   animation: bg-change 2s infinite;
 }
+/* ANIMATED BANNER */
 @keyframes bg-change {
   0% {
     background: linear-gradient(
@@ -52,7 +43,7 @@ body {
     );
   }
   50% {
-    background: black;
+    background: #212529;
   }
   100% {
     background: linear-gradient(
@@ -62,10 +53,7 @@ body {
     );
   }
 }
-.get-ready h1 {
-  width: 60%;
-  margin: 0 auto;
-}
+/* GLOBE ANIMATION */
 @keyframes globe {
   0% {
     transform: scale(1);
