@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background: black;
+}
 a {
   font-weight: 700;
   text-decoration: none;

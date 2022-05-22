@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: black;
+}
 .globe img {
   animation: globe 2s infinite linear;
 }
@@ -40,7 +42,7 @@
     );
   }
   50% {
-    background: #212529;
+    background: black;
   }
   100% {
     background: linear-gradient(
