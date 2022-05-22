@@ -3,58 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-h1 {
-  font-size: 64px;
-  font-weight: 600;
-}
-h3 {
-  font-size: 20px;
-}
-h4 {
-  font-size: 18px;
-}
 a {
   font-weight: 700;
   text-decoration: none;
 }
-body {
-  background: #000000;
-  color: white;
-}
+
 .about-img {
   height: 60vh;
 }
 .about-img img {
   height: 100%;
-}
-@keyframes bg-change {
-  0% {
-    background: linear-gradient(
-      181.88deg,
-      rgba(208, 60, 30, 0.56) 1.59%,
-      rgba(16, 82, 177, 0.56) 105.94%
-    );
-  }
-  50% {
-    background: black;
-  }
-  100% {
-    background: linear-gradient(
-      181.88deg,
-      rgba(208, 60, 30, 0.56) 1.59%,
-      rgba(16, 82, 177, 0.56) 105.94%
-    );
-  }
-}
-@media screen and (max-width: 450px) {
-  h1 {
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  h4 {
-    font-size: 1.2rem;
-  }
 }

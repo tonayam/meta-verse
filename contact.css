@@ -3,28 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-h1 {
-  font-size: 44px;
-  font-weight: 600;
-}
-h3 {
-  font-size: 20px;
-}
-h4 {
-  font-size: 18px;
-}
-a {
-  font-weight: 700;
-  text-decoration: none;
-}
-li {
-  list-style-type: none;
-  margin: 1rem;
-}
-body {
-  background: #000000;
-  color: white;
-}
+
 .row .btn {
   background: linear-gradient(
     181.88deg,
@@ -33,22 +12,4 @@ body {
   );
   color: white;
   width: 50%;
-}
-footer a {
-  color: white;
-}
-.bi {
-  font-size: 2rem;
-}
-@media screen and (max-width: 450px) {
-  h1 {
-    font-size: 1.8em;
-    font-weight: 600;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  h4 {
-    font-size: 1.2rem;
-  }
 }
